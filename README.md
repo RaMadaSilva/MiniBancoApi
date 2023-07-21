@@ -1,14 +1,15 @@
 # MiniBancoApi
+
 Escopo:
 
 O sistema deve permitir o gerenciamento de contas bancárias para dois tipos de usuários: Cliente e Funcionário.
 
-Funcionalidades para Funcionários:
+## Funcionalidades para Funcionários:
 
 1. Criar contas de usuários: Os funcionários devem ter a capacidade de criar contas para os clientes. Durante a criação da conta, um montante inicial deve ser depositado.
 2. Realizar depósitos e Levantamentos: Os funcionários devem ter a capacidade de realizar depósitos e Levantamento nas contas dos clientes. Para isso, o funcionário deve informar o ID do cliente e o tipo de operação a ser realizada.
 
-Funcionalidades para Clientes:
+## Funcionalidades para Clientes:
 
 1. Dados do cliente: O sistema deve armazenar os seguintes dados dos clientes: primeiro nome, último nome, número do BI, telefone e email. É importante garantir que não haja clientes cadastrados com o mesmo email ou número de telefone.
 2. Operações bancárias: Os clientes devem poder realizar as seguintes operações bancárias:
@@ -23,12 +24,12 @@ Funcionalidades para Clientes:
 - Usabilidade: O sistema deve ser intuitivo e fácil de usar tanto para funcionários quanto para clientes. A interface do usuário deve ser clara e amigável.
 - Relatórios: O sistema pode fornecer recursos de geração de relatórios para que os funcionários possam obter informações sobre as transações realizadas, saldos de contas, entre outros dados relevantes.
 
-Alguns Diagramas: 
-1. Diagrama de caso de Uso: 
+Alguns Diagramas:
+
+## 1. Diagrama de caso de Uso:
 
 ![image](https://github.com/RaMadaSilva/MiniBancoApi/assets/91338367/c29dd54c-e93c-419d-ac83-c77a3611e634)
 
-2. Diagrama de Classe
+## 2. Diagrama de Classe
 
 ![image](https://github.com/RaMadaSilva/MiniBancoApi/assets/91338367/6ce624e8-d530-49b7-a6af-46606ceddf84)
-
